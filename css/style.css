@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 800;
+}
+.nav .svg__nav {
+  padding-top: 20px;
+}
+.nav input {
+  padding: 10px;
+  border-radius: 20px;
+  height: 45px;
+  width: 400px;
+  border: 1px solid rgb(180, 176, 176);
+}
+.nav a {
+  color: #000000;
+  text-decoration: none;
+}
+.nav .btn {
+  background: rgba(0, 122, 255, 0.1215686275);
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  color: #007AFF;
+}
+
+.circe__img {
+  width: 100%;
+}
+
+.circle__wrapper {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 20px;
+  background-color: rgb(255, 253, 253);
+}
+
+.circle__wrap {
+  border: 1px solid #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.229);
+  display: flex;
+  border-radius: 15px;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.stats {
+  display: flex;
+  gap: 30px;
+}
+
+.ava1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.line {
+  width: 1px;
+  background-color: gray;
+}
+
+.times {
+  display: flex;
+  gap: 50px;
+}
+.times p {
+  opacity: 50%;
+}
+
+.btn_money {
+  background: #007AFF;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+}
+
+.btn_money2 {
+  color: #007AFF;
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+}
+
+.card__live {
+  border: 1px solid rgba(149, 148, 148, 0.568);
+  max-width: 320px;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.live__img {
+  width: 100%;
+}
+
+.d3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+.card-ava2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 9px;
+}
+.card-ava2 span {
+  opacity: 50%;
+}
+
+.wrapper__live {
+  padding-top: 90px;
+}
+
+.cards__live {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 40px;
+  gap: 32px;
+}
+
+.bid {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.bid h4 {
+  font-weight: 900;
+}
+
+.info {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
